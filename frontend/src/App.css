@@ -1,0 +1,316 @@
+
+/* ============================================NavBar========================================================== */
+.navbar{
+  background-color: #3F51B5 !important;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.navbar-brand:hover{
+  color: black;
+}
+.nav-link{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 3rem;
+}
+
+.nav-link:hover{
+  color: black;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */
+
+
+
+.custom-margin-top {
+  margin-top: 60px; 
+}
+
+.login{
+  padding: 90px 70px;
+  border-radius: 35px;
+  background-color: #3F51B5 !important;
+}
+
+form .btn{
+  margin-top: 10%;
+  width: 100%;
+}
+
+.container h1 {
+  font-size: 70px;
+}
+
+.form-control-lg::placeholder {
+  text-align: center;
+}
+
+footer{
+  background-color: #3F51B5;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.ugNum{
+  color: white;
+}
+
+.container-fluid{
+  padding: 0%;
+}
+
+.col-3{
+  background-color: #F5F5F5;
+  border-radius: 16px;
+  margin: 30px;
+  padding: 20px;
+  width: 280px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 50px; 
+  height: 50px; 
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin: 5px; 
+}
+
+li:hover{
+  background-color: #3F51B5;
+}
+button:hover{
+  color: white !important;
+}
+
+button {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Adjust styles for screens up to 768px wide */
+  .col-3 {
+    width: 100%;
+  }
+}
+
+.right-side{
+  padding: 40px;
+}
+
+.form-check{
+  padding:20px 0 0 120px;
+}
+
+.MCQ-1{
+  padding: 40px;
+}
+.MCQ-2{
+  padding: 40px;
+}
+.MCQ-3{
+  padding: 40px;
+}
+.MCQ-4{
+  padding: 40px;
+}
+
+/*--------------next and previous buttons--------------------------------------------*/
+
+#previous-btn{
+  width: 80px;
+  background-color: #9C27B0;
+}
+
+#next-btn{
+  width: 80px;
+}
+
+/*----------------------------My Account ------------------------------------*/
+
+#myAccount{
+  padding-left: 50px;
+}
+
+.AccountDetalis{
+  padding: 10%  10%;
+}
+
+
+.buttonAcc{
+  display: flex;
+  width: 40%;
+  
+}
+
+.btn-primary{
+  background-color: #3F51B5;
+  margin-left: 30px;
+}
+
+.col-md-5{
+  border-radius: 16px !important;
+}
+
+.cntOne{
+  margin-top: -120px;
+  padding-bottom: 70px;
+}
+
+.fs-5{
+  padding-top: 10px;
+}
+
+.quizNumber{
+  height: 50% !important;
+}
+
+
+
+.quizBody {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+.left-side {
+  flex: 1;
+  width: 25%;
+
+}
+
+.right-side {
+  flex: 3;
+  width: 75%;
+
+  
+}
+
+.form-check-label{
+  padding: 0px 5px;
+}
+
+.left-side{
+  background-color: #FF9800;
+}
+
+
+.quizContent {
+  padding-left: 120px;
+} 
+
+/*------------------------------ result Page -------------------------------------------------------*/
+#finishText{
+  padding: 40px 80px 0px 80px;
+}
+#resultCenter{
+  padding: 4%;
+   
+}
+
+.noRecodes{
+  width: 100% !important;
+  height: 300px !important;
+}
+
+
+
+#adminDash{
+  padding: 40px 50px;
+}
+
+#addQuizH3{
+  padding-left: 50px;
+}
+
+#addQuizTable{
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 100%;
+}
+
+#buttonStart{
+  border-color: #4CAF50;
+  background-color: #4CAF50;
+}
+
+#buttonStart:hover{
+  border-color: #367c38;
+  background-color: #367c38;
+}
+
+#buttonEnd{
+  border-color: #E57373;
+  background-color: #E57373;
+}
+
+#buttonEnd:hover{
+  border-color: #bb5353;
+  background-color: #bb5353;
+}
+
+
+.quizAddH1{
+  margin: 10px 0px 80px 80px;
+}
+
+.con-box{
+  margin-bottom: 10px;
+}
+
+#addQuiz{
+  background-color: none;
+
+}
+
+.small-btn {
+  padding: 5px 10px;
+  width: 80px !important;
+  font-size: 15px; 
+  margin-top: 10px !important;
+}
+
+
+.d-flex.justify-content-sm-end {
+  margin-right: 10px; 
+}
+
+
+div.scroll {
+  margin: 4px, 4px;
+  padding: 4px;
+  width: 100%;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
